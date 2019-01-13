@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style type="text/css">
+        *{
+             margin: 0px;
+            padding: 0px;
+        }
+        .panel-heading1{
+            width: 100px;
+            height: 50px;
+            /*border: 1px solid red;*/
+            position: absolute;
+            margin-top: 10px;
+        }
+        .panel-heading2{
+            width: 100px;
+            height: 50px;
+            /*border: 1px solid red;*/
+            float: right;
+            position: relative;
+            margin-top: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading1">
+            <h3 class="panel-tittle">
+                用户列表
+            </h3>
+        </div>
+        <div class="panel-heading2" >
+            <h3 class="panel-tittle">
+                <a href="/">返回首页</a>
+            </h3>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="panel-body">
+            <div role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="">用户列表 </a>
+                    </li>
+                </ul>
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>编号</th>
+                        <th>账号</th>
+                        <th>昵称</th>
+                        <th width="200px">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>哈哈</td>
+                        <td>嘿嘿</td>
+                        <td>
+                            <div class="btn-group" role="group" aria-label="...">
+                                <a href="" class="btn btn-success">查看</a>
+                                <a href="" class="btn btn-danger">删除</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <!--分页效果实现代码如下-->
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
